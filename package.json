@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "@xenova/transformers": "^2.16.1",
-    "@img/sharp-libvips-linux-x64": "^1.0.6",
-    "@img/sharp-linux-x64": "^1.0.6",
     "next": "14.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "rss-parser": "^3.13.0",
     "sharp": "^0.33.3"
+  },
+  "optionalDependencies": {
+    "@img/sharp-libvips-linux-x64": "^1.0.6",
+    "@img/sharp-linux-x64": "^1.0.6"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
