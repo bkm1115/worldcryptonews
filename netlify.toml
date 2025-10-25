@@ -7,13 +7,9 @@
   NETLIFY_NEXT_PLUGIN_SKIP_IMAGE_COMPRESSION = "true"
 
 [functions]
-  external_node_modules = ["@xenova/transformers", "sharp"]
-  included_files = [
-    "node_modules/@xenova/transformers/**",
-    "node_modules/sharp/**",
-    "node_modules/@img/sharp-linux-x64/**",
-    "node_modules/@img/sharp-libvips-linux-x64/**",
-    "node_modules/@xenova/transformers/node_modules/sharp/**",
-    "node_modules/@xenova/transformers/node_modules/@img/sharp-linux-x64/**",
-    "node_modules/@xenova/transformers/node_modules/@img/sharp-libvips-linux-x64/**"
+  external_node_modules = [
+    "@xenova/transformers",
+    "sharp",
+    "@img/sharp-linux-x64",
+    "@img/sharp-libvips-linux-x64"
   ]
