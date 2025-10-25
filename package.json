@@ -1,0 +1,25 @@
+{
+  "name": "crypto-news-sentiment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "serve:netlify": "netlify dev --keepaliveTimeout 60000 --port 8888"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.16.1",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.22",
+    "netlify-cli": "^23.9.5",
+    "typescript": "^5.4.5"
+  }
+}
